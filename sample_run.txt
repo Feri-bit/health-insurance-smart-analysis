@@ -1,0 +1,34 @@
+Sample Run
+
+Command:
+
+python health_insurance.py
+
+Expected result:
+
+The project generates synthetic health insurance datasets, trains multiple machine learning and deep learning models, evaluates their performance, and exports several CSV result files.
+
+Main output files:
+
+* exercise5_health_insurance_dataset_300.csv
+* exercise5_health_insurance_dataset_3000.csv
+* exercise5_health_insurance_dataset_3000000.csv
+* exercise5_sklearn_regression_results.csv
+* exercise5_sklearn_classification_results.csv
+* exercise5_sklearn_clustering_results.csv
+* exercise5_best_k_results.csv
+* exercise5_sklearn_cluster_summary.csv
+* exercise5_knn_branch_recommendation_results.csv
+* exercise5_branch_recommendation_examples.csv
+* exercise5_keras_regression_results.csv
+* exercise5_keras_classification_results.csv
+* exercise5_keras_autoencoder_clustering_results.csv
+* exercise5_keras_autoencoder_cluster_summary.csv
+* exercise5_cross_validation_results.csv
+
+Notes:
+
+* The program may take some time to run because it trains several machine learning and deep learning models.
+* TensorFlow/Keras models may be slower on normal laptops.
+* For large datasets, the project uses sampling to reduce memory usage.
+* The generated CSV files will appear in the main project directory after running the script.
