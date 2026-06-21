@@ -32,4 +32,3 @@ Notes:
 * TensorFlow/Keras models may be slower on normal laptops.
 * For large datasets, the project uses sampling to reduce memory usage.
 * The generated CSV files will appear in the main project directory after running the script.
-docs: add sample run example
